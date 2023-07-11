@@ -1,4 +1,6 @@
-Utilizzo delle funzioni HouseHolderQR e GivensQR
+<h1>QR Factorization using Householder and Givens Methods</h1>
+
+```Utilizzo delle funzioni HouseHolderQR e GivensQR
 
 Queste due funzioni servono per calcolare la fattorizzazione QR di una matrice A utilizzando metodi diversi: Householder e Givens.
 
@@ -51,4 +53,4 @@ disp(R)
 disp('Matrice A ricostruita:')
 disp(A_ricostruita)
 disp('Differenza tra la matrice originale A e la matrice ricostruita:');
-disp(differenza);
+disp(differenza);```

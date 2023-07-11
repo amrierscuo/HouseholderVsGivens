@@ -1,27 +1,21 @@
 <h1>QR Factorization using Householder and Givens Methods</h1>
-
-```Utilizzo delle funzioni HouseHolderQR e GivensQR
-
-Queste due funzioni servono per calcolare la fattorizzazione QR di una matrice A utilizzando metodi diversi: Householder e Givens.
+```Utilizzo delle funzioni HouseHolderQR e GivensQR, queste due funzioni servono per calcolare la fattorizzazione QR di una matrice A utilizzando metodi diversi: Householder e Givens.
 
 Per utilizzare queste funzioni, seguire questi passaggi:
 -------------------
 1. apri gli script HouseHolderQR e GivensQR in MATLAB nella cartella corrente.
 -------------------
 2. Crea o importa la matrice A da fattorizzare(r>c). Ad esempio:
-
    A = [1 2 3; 4 5 6; 7 8 9];
    A =  rand(5);
    A =  rand(6,5);
 -------------------
 3. Chiama la funzione HouseHolderQR per eseguire la fattorizzazione QR con il metodo di Householder:
-
    [Q, R] = HouseHolderQR(A);
 
    Ora Q e R contengono rispettivamente la matrice ortogonale Q e la matrice triangolare superiore R risultanti dalla fattorizzazione QR.
 -------------------
 4. Oppure chiama la funzione GivensQR per eseguire la fattorizzazione QR con il metodo di Givens:
-
    [Q, R] = GivensQR(A);
 
    Anche in questo caso, Q e R contengono rispettivamente la matrice ortogonale Q e la matrice triangolare superiore R risultanti dalla fattorizzazione QR.

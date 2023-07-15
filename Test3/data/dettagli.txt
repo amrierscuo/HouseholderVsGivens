@@ -1,0 +1,23 @@
+data/conchiglia.mat
+L 3x20 double
+M 623925x20 double
+N 3x623925 double
+r 885
+s 705
+
+data/superficie1.mat
+L 3x7 double
+M 10201x7 double
+N 3x10201 double
+r 101
+s 101
+
+-----------------------------------------
+
+L è una matrice di dimensione 3x20 (di tipo double), che rappresenta le direzioni di luce. Ogni colonna di questa matrice rappresenta una diversa direzione da cui proviene la luce. Dal momento che la luce in questo caso è un vettore tridimensionale, ci sono tre righe in questa matrice.
+
+M è una matrice di dimensione 623925x20 (di tipo double), che rappresenta le intensità delle immagini. Ogni riga di questa matrice rappresenta un punto differente nell'immagine, e ogni colonna rappresenta un'immagine diversa. La dimensione di questa matrice suggerisce che ci sono 623925 punti nelle immagini e 20 immagini differenti.
+
+N è una matrice di dimensione 3x623925 (di tipo double), che rappresenta le normali della superficie dell'oggetto nello spazio 3D. Ogni colonna di questa matrice rappresenta la normale (un vettore tridimensionale che punta perpendicolarmente alla superficie) a un punto differente dell'oggetto.
+
+r e s sono scalari (di tipo double) che rappresentano rispettivamente il numero di righe e colonne delle immagini. r è 885 e s è 705, vuol dire che le immagini sono di dimensione 885x705 pixel.
